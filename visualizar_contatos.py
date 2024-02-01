@@ -5,5 +5,5 @@ def visualizar_contatos(contatos):
     nome_contato = contato["nome"]
     tel_contato = contato["telefone"]
     email_contato = contato["email"]
-    print(f"\n{indice}. [{favorito}] {nome_contato} - {tel_contato} - {email_contato}\n")
+    print(f"\n{indice}. [{favorito} ] {nome_contato} - {tel_contato} - {email_contato}\n")
   return  

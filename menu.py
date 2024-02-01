@@ -1,7 +1,8 @@
 def menu():
-    print("Bem-vindo ao APP Contact Manager!\n")
-    print("\n // ---------------------------------------------- //")
-    print(">>> MENU do APP de Cadastro <<<")
+    print("\n ****************************************************** \n")
+    print("\nBem-vindo ao APP Contact Manager!\n")
+    print("\n ****************************************************** \n")
+    print(">>>>>>>>>>> MENU do app de Contatos <<<<<<<<<<<<")
     print("1 - Cadastrar novo contato")
     print("2 - Visualizar todos os contatos")
     print("3 - Editar um contato")
