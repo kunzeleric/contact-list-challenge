@@ -1,5 +1,6 @@
 from menu import menu
-
+from adicionar_contato import adicionar_contato
+from visualizar_contatos import visualizar_contatos
 
 def main():
   contatos = []
@@ -8,11 +9,11 @@ def main():
 
     match menu_option:
       case 1:
-        print("Vamos adicionar um novo contato!\n")
+        print("\nVamos adicionar um novo contato!\n")
         contato = adicionar_contato()
         contatos.append(contato)
       case 2:
-        listar_contatos()
+        visualizar_contatos(contatos)
       case 3:
         editar_contato()
       case 4:
@@ -24,7 +25,5 @@ def main():
       case _:
         print("Opção inválida! Tente novamente.")
         print("\n // ---------------------------------------------- //")
-
-    return
 
 main()
